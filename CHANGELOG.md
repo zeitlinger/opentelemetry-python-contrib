@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `opentelemetry-instrumentation-kafka-python` Instrument temporary fork, kafka-python-ng
   inside kafka-python's instrumentation
   ([#2537](https://github.com/open-telemetry/opentelemetry-python-contrib/pull/2537))
+- Add `OTEL_PYTHON_HTTP_SERVER_REQUEST_DURATION_SERVER_ATTRIBUTES_ENABLED` flag to add 
+  `server.address` and `server.port` for `http.server.request.duration`
+- Add `OTEL_PYTHON_HTTP_SERVER_ACTIVE_REQUESTS_COUNT_SERVER_ATTRIBUTES_ENABLED` flag to add 
+  `server.address` and `server.port` for `http.server.active_requests`
 
 ### Breaking changes
 
